@@ -8,7 +8,9 @@
 // layout
 @import 'layout/base';
 @import 'layout/scroll';
+@import "layout/grid";
 
 // components
 @import 'components/header';
+@import 'components/welcome';
 @import 'components/footer';

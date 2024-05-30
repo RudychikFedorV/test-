@@ -4,17 +4,16 @@ html {
 body {
   font-size: 16px;
   --font-family: var(--ff);
-  --second-family: var(--sf);
-  --third-family: var(--tf);
   scroll-behavior: smooth;
 }
 .wrapper {
-  max-width: 1440px;
+  max-width: 1920px;
   margin-inline: auto;
 }
 .container {
-  max-width: 1128px;
+  max-width: 1800px;
   margin-inline: auto;
+  padding: 0 15px;
 }
 img {
   cursor: pointer;
@@ -23,6 +22,6 @@ img {
 .svg {
   transition: var(--transition);
   &:hover {
-    scale: 1.1;
+    scale: 1.05;
   }
 }
