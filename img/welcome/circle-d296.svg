@@ -1,0 +1,13 @@
+<svg id='circle-d296' width="296" height="436" viewBox="0 0 296 436" fill="none"
+    xmlns="http://www.w3.org/2000/svg">
+    <path opacity="0.15"
+        d="M296 217.972C296 338.378 198.386 436 77.9897 436C50.527 436 24.192 430.924 0 421.619V14.3811C24.192 5.07567 50.527 0 77.9897 0C198.386 0 296 97.622 296 217.972Z"
+        fill="url(#paint0_linear_8_306)" />
+    <defs>
+        <linearGradient id="paint0_linear_8_306" x1="-31.1233" y1="-14.7797" x2="441.175"
+            y2="295.279" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#FFDF00" />
+            <stop offset="1" stop-color="#FFB800" />
+        </linearGradient>
+    </defs>
+</svg>

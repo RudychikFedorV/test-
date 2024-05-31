@@ -150,13 +150,18 @@ p {
   --html-fs: 1px;
   --ff: "Poppins", sans-serif;
   --transition: 0.2s all ease-in-out;
+  --txt-900-80-ff: normal 900 80px / 110% var(--ff);
   --txt-700-26-ff: normal 700 26px / 125% var(--ff);
+  --txt-700-20-150-ff: normal 700 20px / 150% var(--ff);
+  --txt-700-20-125-ff: normal 700 20px / 150% var(--ff);
+  --txt-700-14-ff: normal 700 14px / 125% var(--ff);
   --txt-600-22-ff: normal 600 22px / 125% var(--ff);
   --txt-400-16-ff: normal 400 16px / 125% var(--ff);
   --black: #333;
   --yellow: #ffd00e;
   --white: #fff;
   --background-dropdown: #f1f1f1;
+  --background-btn: linear-gradient(132deg, #ffdf00 0%, #ffb800 100%);
   --c-box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
 }
 
@@ -179,10 +184,6 @@ body {
   max-width: 1800px;
   margin-inline: auto;
   padding: 0 15px;
-}
-
-img {
-  cursor: pointer;
 }
 
 .svg {
@@ -384,63 +385,99 @@ img {
   display: block;
 }
 
-.welcome {
-  margin-top: 100px;
-}
-.welcome__section {
+.welcome .welcome__section {
+  padding: 100px 0 343px;
+  position: relative;
   display: flex;
   justify-content: space-between;
   align-items: center;
   gap: 30px;
+  width: 100%;
 }
-.welcome__section-block {
+.welcome .welcome__section-contacts {
   max-width: 1063px;
 }
-.welcome__section-block__desc {
-  font-family: var(--font-family);
-  font-weight: 700;
-  font-size: 20px;
-  line-height: 150%;
+.welcome .welcome__section-contacts__desc {
+  font: var(--txt-700-20-150-ff);
   color: var(--black);
 }
-.welcome__section-block__title {
-  font-family: var(--font-family);
-  font-weight: 900;
-  font-size: 90px;
-  line-height: 110%;
+.welcome .welcome__section-contacts__title {
+  font: var(--txt-900-80-ff);
   color: var(--black);
   margin-bottom: 20px;
+  margin-right: -200px;
 }
-.welcome__section-block__txt {
-  font-family: var(--font-family);
-  font-weight: 700;
-  font-size: 20px;
-  line-height: 150%;
+.welcome .welcome__section-contacts__txt {
+  font: var(--txt-700-20-150-ff);
   color: var(--black);
   margin-bottom: 40px;
 }
-.welcome__section-block__btn {
-  font-family: var(--font-family);
-  font-weight: 700;
-  font-size: 20px;
-  line-height: 125%;
+.welcome .welcome__section-contacts__btn {
+  font: var(--txt-700-20-125-ff);
   color: var(--black);
   display: inline-block;
   border-radius: 5px;
   padding: 20px 82px;
-  background: linear-gradient(132deg, #ffdf00 0%, #ffb800 100%);
+  background: var(--background-btn);
+  transition: var(--transition);
 }
-.welcome__section-img__wrapper {
+.welcome .welcome__section-contacts__btn:hover {
+  opacity: 0.8;
+}
+.welcome .welcome__section-img {
   position: relative;
-  margin-right: -90px;
+  margin-bottom: -300px;
 }
-.welcome__section-img__user {
-  position: absolute;
-  right: 150px;
-  top: 250px;
+.welcome .welcome__section-img__wrapper {
+  margin-right: -30px;
 }
-.welcome__section-svg__circle {
+.welcome .welcome__section-img__user {
   position: absolute;
+  right: 0px;
+  top: 30px;
+}
+.welcome .welcome__section .circle__d296 {
+  position: absolute;
+  left: 0;
+  top: 67px;
+  width: 296px;
+  height: 436px;
+}
+.welcome .welcome__section .circle__d218 {
+  position: absolute;
+  left: 506px;
+  top: 426px;
+  width: 218px;
+  height: 218px;
+}
+.welcome .welcome__section .circle__d93 {
+  position: absolute;
+  left: 1100px;
+  top: 67px;
+  width: 93px;
+  height: 93px;
+}
+.welcome .welcome__section .circle__d31 {
+  position: absolute;
+  left: 954px;
+  top: 513px;
+  width: 31px;
+  height: 31px;
+}
+.welcome .welcome__section-scroll {
+  position: absolute;
+  display: block;
+  left: 50%;
+  bottom: 47px;
+}
+.welcome .welcome__section-scroll__txt {
+  font: var(--txt-700-14-ff);
+  color: var(--black);
+  margin-bottom: 16px;
+}
+.welcome .welcome__section-scroll__arrow {
+  width: 20px;
+  height: 29px;
 }
 
 .footer {

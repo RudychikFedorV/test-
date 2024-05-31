@@ -1,0 +1,13 @@
+<svg id='circle-d218' width="218" height="218" viewBox="0 0 218 218" fill="none"
+    xmlns="http://www.w3.org/2000/svg">
+    <path opacity="0.15"
+        d="M109 218C169.199 218 218 169.199 218 109C218 48.801 169.199 0 109 0C48.801 0 0 48.801 0 109C0 169.199 48.801 218 109 218Z"
+        fill="url(#paint0_linear_8_309)" />
+    <defs>
+        <linearGradient id="paint0_linear_8_309" x1="-22.9219" y1="-7.38983" x2="234.305"
+            y2="241.347" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#FFDF00" />
+            <stop offset="1" stop-color="#FFB800" />
+        </linearGradient>
+    </defs>
+</svg>

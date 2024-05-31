@@ -1,0 +1,13 @@
+<svg id='circle-d93' width="93" height="93" viewBox="0 0 93 93" fill="none"
+    xmlns="http://www.w3.org/2000/svg">
+    <path opacity="0.15"
+        d="M46.5 93C72.1813 93 93 72.1812 93 46.5C93 20.8188 72.1813 0 46.5 0C20.8188 0 0 20.8188 0 46.5C0 72.1812 20.8188 93 46.5 93Z"
+        fill="url(#paint0_linear_12_316)" />
+    <defs>
+        <linearGradient id="paint0_linear_12_316" x1="-9.77859" y1="-3.15254" x2="99.956"
+            y2="102.96" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#FFDF00" />
+            <stop offset="1" stop-color="#FFB800" />
+        </linearGradient>
+    </defs>
+</svg>

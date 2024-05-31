@@ -15,10 +15,6 @@ body {
   margin-inline: auto;
   padding: 0 15px;
 }
-img {
-  cursor: pointer;
-}
-
 .svg {
   transition: var(--transition);
   &:hover {
