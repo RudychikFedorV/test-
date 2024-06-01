@@ -1,5 +1,4 @@
 .welcome {
-  
   .welcome__section {
     padding: 100px 0 343px;
     position: relative;
@@ -56,6 +55,7 @@
       top: 67px;
       width: 296px;
       height: 436px;
+      z-index: -1;
     }
     .circle__d218 {
       position: absolute;
@@ -63,6 +63,7 @@
       top: 426px;
       width: 218px;
       height: 218px;
+      z-index: -1;
     }
     .circle__d93 {
       position: absolute;
@@ -70,6 +71,7 @@
       top: 67px;
       width: 93px;
       height: 93px;
+      z-index: -1;
     }
     .circle__d31 {
       position: absolute;
@@ -77,11 +79,13 @@
       top: 513px;
       width: 31px;
       height: 31px;
+      z-index: -1;
     }
 
     &-scroll {
       position: absolute;
       display: block;
+      text-align: center;
       left: 50%;
       bottom: 47px;
       &__txt {
