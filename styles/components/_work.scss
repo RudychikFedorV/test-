@@ -1,11 +1,6 @@
 .work {
   padding: 100px 0;
 
-  &-title {
-    font: var(--txt-800-44-ff);
-    color: var(--black);
-    margin-bottom: 50px;
-  }
   &-section {
     @include flex-spaceBetween-center;
     gap: 20px;
