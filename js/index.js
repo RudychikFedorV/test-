@@ -122,3 +122,5 @@ document.addEventListener("DOMContentLoaded", () => {
 
   carousel.style.cursor = "grab";
 });
+
+AOS.init();

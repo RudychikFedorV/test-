@@ -151,11 +151,13 @@ p {
   --ff: "Poppins", sans-serif;
   --transition: 0.2s all ease-in-out;
   --txt-900-80-ff: normal 900 80px / 110% var(--ff);
+  --txt-800-44-ff: normal 800 44px / 125% var(--ff);
   --txt-700-26-ff: normal 700 26px / 125% var(--ff);
   --txt-700-20-150-ff: normal 700 20px / 150% var(--ff);
   --txt-700-20-125-ff: normal 700 20px / 150% var(--ff);
   --txt-700-14-ff: normal 700 14px / 125% var(--ff);
   --txt-600-22-ff: normal 600 22px / 125% var(--ff);
+  --txt-400-20-ff: normal 400 20px / 150% var(--ff);
   --txt-400-16-ff: normal 400 16px / 125% var(--ff);
   --black: #333;
   --yellow: #ffd00e;
@@ -471,10 +473,13 @@ body {
 }
 .welcome .welcome__section-scroll {
   position: absolute;
-  display: block;
   text-align: center;
   left: 50%;
   bottom: 47px;
+  transition: var(--transition);
+}
+.welcome .welcome__section-scroll:hover {
+  scale: 1.1;
 }
 .welcome .welcome__section-scroll__txt {
   font: var(--txt-700-14-ff);
@@ -521,6 +526,53 @@ body {
 
 .indicator.active {
   background-color: var(--yellow);
+}
+
+.work {
+  padding: 100px 0;
+}
+.work-title {
+  font: var(--txt-800-44-ff);
+  color: var(--black);
+  margin-bottom: 50px;
+}
+.work-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+.work-section__content {
+  max-width: 830px;
+  height: 320px;
+  overflow: auto;
+}
+.work-section__content::-webkit-scrollbar {
+  border-radius: 2px;
+  width: 7px;
+  height: 149px;
+}
+.work-section__content::-webkit-scrollbar {
+  width: 7px;
+  height: 149px;
+}
+.work-section__content::-webkit-scrollbar-track {
+  background: var(--background-dropdown);
+}
+.work-section__content::-webkit-scrollbar-thumb {
+  background: var(--yellow);
+  border-radius: 2px;
+}
+.work-section__content::-webkit-scrollbar-thumb:hover {
+  background: var(--yellow);
+}
+.work-section__weight400 {
+  font: var(--txt-400-20-ff);
+  color: var(--black);
+}
+.work-section__weight700 {
+  font: var(--txt-700-20-150-ff);
+  color: var(--black);
 }
 
 .footer {

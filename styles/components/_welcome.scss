@@ -84,10 +84,13 @@
 
     &-scroll {
       position: absolute;
-      display: block;
       text-align: center;
       left: 50%;
       bottom: 47px;
+      transition: var(--transition);
+      &:hover {
+        scale: 1.1;
+      }
       &__txt {
         font: var(--txt-700-14-ff);
         color: var(--black);
