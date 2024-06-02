@@ -84,7 +84,7 @@ function prevSlide() {
 
 document.addEventListener("DOMContentLoaded", () => {
   showSlide(currentSlide);
-  // setInterval(nextSlide, 10000);
+  // setInterval(nextSlide, 6000);
 
   document.addEventListener("keydown", (event) => {
     if (event.key === "ArrowLeft") {

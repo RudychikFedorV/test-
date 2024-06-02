@@ -1,0 +1,62 @@
+.glossiness {
+  &__block {
+    max-width: 605px;
+    @include flex-spaceBetween-center;
+    gap: 20px;
+    &-title {
+      font-family: var(--font-family);
+      font-weight: 700;
+      font-size: 20px;
+      line-height: 125%;
+      text-align: right;
+      color: var(--black);
+      margin-bottom: 10px;
+    }
+    &-desc {
+      font-family: var(--font-family);
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 125%;
+      text-align: right;
+      color: var(--black);
+      span {
+        font-weight: 700;
+      }
+    }
+
+    &-icon {
+      flex-shrink: 0;
+      padding: 20px;
+      border-radius: 50%;
+      background: var(--yellow);
+    }
+  }
+}
+
+.logo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section {
+    position: absolute;
+    padding: 0 20px;
+}
+
+#section1 { top: 10%; left: 10%; }
+#section2 { top: 30%; left: 5%; }
+#section3 { top: 50%; left: 0%; }
+#section4 { top: 70%; left: 5%; }
+#section5 { top: 90%; left: 10%; }
+
+#section6 { top: 10%; right: 10%; }
+#section7 { top: 30%; right: 5%; }
+#section8 { top: 50%; right: 0%; }
+#section9 { top: 70%; right: 5%; }
+#section10 { top: 90%; right: 10%; }
+
