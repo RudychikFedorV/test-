@@ -1,39 +1,6 @@
 .glossiness {
-  &__block {
-    max-width: 605px;
-    @include flex-spaceBetween-center;
-    gap: 20px;
-    &-title {
-      font-family: var(--font-family);
-      font-weight: 700;
-      font-size: 20px;
-      line-height: 125%;
-      text-align: right;
-      color: var(--black);
-      margin-bottom: 10px;
-    }
-    &-desc {
-      font-family: var(--font-family);
-      font-weight: 400;
-      font-size: 16px;
-      line-height: 125%;
-      text-align: right;
-      color: var(--black);
-      span {
-        font-weight: 700;
-      }
-    }
-
-    &-icon {
-      flex-shrink: 0;
-      padding: 20px;
-      border-radius: 50%;
-      background: var(--yellow);
-    }
-  }
-}
-
-.logo {
+  &__logo {
+    width: 432px;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -41,22 +8,150 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    &-rimL{
+      margin-right: -170px;
+    }
+    &-gL{
+      margin-right: -66px;
+    }
+    &-gR{
+      margin-left: -66px;
+    }
+    &-rimR{
+      margin-left: -170px;
+    }
+    &-circle1{
+      position: absolute;
+      top: 0px;
+      left: 120px;
+    }
+    &-circle2{
+      position: absolute;
+      top: 80px;
+      left: 15px;
+    }
+    &-circle3{
+      position: absolute;
+      top: 200px;
+      left: -25px;
+    }
+    &-circle4{
+      position: absolute;
+      bottom:  100px;
+      left: 5px;
+    }
+    &-circle5{
+      position: absolute;
+      bottom: 0px;
+      left: 120px;
+    }
+    &-circle6{
+      position: absolute;
+      top: 0px;
+      right: 120px;
+    }
+    &-circle7{
+      position: absolute;
+      top: 80px;
+      right: 15px;
+    }
+    &-circle8{
+      position: absolute;
+      top: 200px;
+      right: -25px;
+    }
+    &-circle9{
+      position: absolute;
+      bottom:  100px;
+      right: 5px;
+    }
+    &-circle10{
+      position: absolute;
+      bottom: 0px;
+      right: 120px;
+    }
+  }
+
+  &__block {
+    max-width: 650px;
+    @include flex-spaceBetween-center;
+    gap: 20px;
+    &-title {
+      font: var(--txt-700-20-125-ff);
+      text-align: right;
+      color: var(--black);
+      margin-bottom: 10px;
+    }
+    &-desc {
+      font: var(--txt-400-16-ff);
+      text-align: right;
+      color: var(--black);
+      span {
+        font-weight: 700;
+      }
+    }
+    .txt-left {
+      text-align: left;
+    }
+    &-icon {
+      flex-shrink: 0;
+      padding: 20px;
+      border-radius: 50%;
+      background: var(--yellow);
+      cursor: pointer;
+    }
+  }
+}
+.grid-container {
+  position: relative;
+  height: 750px;
 }
 
 .section {
-    position: absolute;
-    padding: 0 20px;
+  position: absolute;
+  padding: 0 20px;
 }
 
-#section1 { top: 10%; left: 10%; }
-#section2 { top: 30%; left: 5%; }
-#section3 { top: 50%; left: 0%; }
-#section4 { top: 70%; left: 5%; }
-#section5 { top: 90%; left: 10%; }
+#section1 {
+  top: 0%;
+  left: 6%;
+}
+#section2 {
+  top: 20%;
+  left: 0%;
+}
+#section3 {
+  top: 40%;
+  left: -2%;
+}
+#section4 {
+  top: 60%;
+  left: 0%;
+}
+#section5 {
+  top: 80%;
+  left: 6%;
+}
 
-#section6 { top: 10%; right: 10%; }
-#section7 { top: 30%; right: 5%; }
-#section8 { top: 50%; right: 0%; }
-#section9 { top: 70%; right: 5%; }
-#section10 { top: 90%; right: 10%; }
-
+#section6 {
+  top: 0%;
+  right: 6%;
+  padding-top: 10px;
+}
+#section7 {
+  top: 20%;
+  right: 0%;
+}
+#section8 {
+  top: 40%;
+  right: -2%;
+}
+#section9 {
+  top: 60%;
+  right: 0%;
+}
+#section10 {
+  top: 80%;
+  right: 6%;
+  padding-top: 10px;
+}
