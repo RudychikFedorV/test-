@@ -13,6 +13,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800;900&display=swap"
         rel="stylesheet">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
     <link rel="stylesheet" href="./docs/styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css"
         integrity="sha512-1cK78a1o+ht2JcaW6g8OXYwqpev9+6GqOkz9xmBN9iUUhIndKtxwILGWYOSibOKjLsEdjyjZvYDq/cZwNeak0w=="
@@ -553,12 +554,46 @@
 
         </section>
 
+        <section class="gallery" id="gallery" aria-label="gallery section">
+            <div class="container">
+                <img src="./img/gallery/arrow-l.svg" alt="Arrow" class="gallery__arrowL" id="prevEl">
+
+                <div class="swiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <img src="./img/gallery/gallery-1.png" alt="Gallery" class="gallery__img">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./img/gallery/gallery-2.png" alt="Gallery" class="gallery__img">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./img/gallery/gallery-3.png" alt="Gallery" class="gallery__img">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./img/gallery/gallery-4.png" alt="Gallery" class="gallery__img">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./img/gallery/gallery-1.png" alt="Gallery" class="gallery__img">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./img/gallery/gallery-2.png" alt="Gallery" class="gallery__img">
+                        </div>
+                    </div>
+
+                </div>
+                <img src="./img/gallery/arrow-r.svg" alt="Arrow" class="gallery__arrowR" id="nextEl">
+
+            </div>
+
+        </section>
+
     </div>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"
         integrity="sha512-A7AYk1fGKX6S2SsHywmPkrnzTZHrgiVT7GcQkLGDe2ev0aWb8zejytzS8wjo7PGEXKqJOrjQ4oORtnimIRZBtw=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="./js/index.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 </body>
 
 </html>

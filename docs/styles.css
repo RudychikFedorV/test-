@@ -786,4 +786,34 @@ body {
   padding-top: 10px;
 }
 
+.gallery {
+  position: relative;
+  margin-bottom: 100px;
+}
+.gallery .swiper-wrapper {
+  gap: 14px;
+}
+.gallery__arrowL {
+  position: absolute;
+  display: inline-block;
+  top: 38px;
+  left: 50px;
+  padding: 16px 12px;
+  background: var(--white);
+  z-index: 9;
+  cursor: pointer;
+}
+.gallery__img {
+  width: 100%;
+}
+.gallery__arrowR {
+  position: absolute;
+  top: 117px;
+  right: 50px;
+  z-index: 9;
+  padding: 16px 12px;
+  background: var(--yellow);
+  cursor: pointer;
+}
+
 /*# sourceMappingURL=styles.css.map */
