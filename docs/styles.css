@@ -156,6 +156,7 @@ p {
   --txt-700-20-125-ff: normal 700 20px / 150% var(--ff);
   --txt-700-14-ff: normal 700 14px / 125% var(--ff);
   --txt-600-22-ff: normal 600 22px / 125% var(--ff);
+  --txt-600-20-ff: normal 600 20px / 125% var(--ff);
   --txt-400-20-ff: normal 400 20px / 150% var(--ff);
   --txt-400-16-ff: normal 400 16px / 125% var(--ff);
   --black: #333;
@@ -165,6 +166,7 @@ p {
   --background-indicator: #bbb;
   --background-btn: linear-gradient(132deg, #ffdf00 0%, #ffb800 100%);
   --c-box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  --c-border-drupal: 2px solid rgba(69, 77, 82, 0.05);
 }
 
 html {
@@ -814,6 +816,46 @@ body {
   padding: 16px 12px;
   background: var(--yellow);
   cursor: pointer;
+}
+
+.drupal {
+  margin-bottom: 100px;
+}
+.drupal-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+}
+.drupal-section__block {
+  position: relative;
+  padding: 20px 30px 30px;
+  border: var(--c-border-drupal);
+  border-radius: 10px;
+  cursor: pointer;
+  background: var(--white);
+  transition: var(--transition);
+}
+.drupal-section__block:hover {
+  background: var(--yellow);
+}
+.drupal-section__title {
+  padding-top: 15px;
+  font: var(--txt-600-20-ff);
+  color: var(--black);
+  margin-bottom: 15px;
+}
+.drupal-section__txt {
+  font: var(--txt-400-16-ff);
+  color: var(--black);
+}
+.drupal-section__txt span {
+  font-weight: 700;
+}
+.drupal-section__element {
+  position: absolute;
+  right: 0px;
+  top: 0px;
 }
 
 /*# sourceMappingURL=styles.css.map */

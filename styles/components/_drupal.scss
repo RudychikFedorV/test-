@@ -1,0 +1,37 @@
+.drupal {
+  margin-bottom: 100px;
+  &-section {
+    @include flex-spaceBetween-center;
+    gap: 30px;
+    &__block {
+      position: relative;
+      padding: 20px 30px 30px;
+      border: var(--c-border-drupal);
+      border-radius: 10px;
+      cursor: pointer;
+      background: var(--white);
+      transition: var(--transition);
+      &:hover {
+        background: var(--yellow);
+      }
+    }
+    &__title {
+      padding-top: 15px;
+      font: var(--txt-600-20-ff);
+      color: var(--black);
+      margin-bottom: 15px;
+    }
+    &__txt {
+      font: var(--txt-400-16-ff);
+      color: var(--black);
+      span {
+        font-weight: 700;
+      }
+    }
+    &__element {
+      position: absolute;
+      right: 0px;
+      top: 0px;
+    }
+  }
+}
