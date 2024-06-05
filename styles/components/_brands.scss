@@ -1,0 +1,11 @@
+.brands{
+
+    &-slider{
+        position: relative;
+        display: flex;
+        gap: 30px;
+    }
+    .brands-arrow{
+        position: absolute;
+    }
+}

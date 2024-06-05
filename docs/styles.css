@@ -790,7 +790,7 @@ body {
 
 .gallery {
   position: relative;
-  margin-bottom: 100px;
+  margin: 100px 0 100px;
 }
 .gallery .swiper-wrapper {
   gap: 14px;
@@ -856,6 +856,15 @@ body {
   position: absolute;
   right: 0px;
   top: 0px;
+}
+
+.brands-slider {
+  position: relative;
+  display: flex;
+  gap: 30px;
+}
+.brands .brands-arrow {
+  position: absolute;
 }
 
 /*# sourceMappingURL=styles.css.map */
