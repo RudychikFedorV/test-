@@ -1,0 +1,37 @@
+.charity {
+  margin-bottom: 165px;
+
+  &-section {
+    @include flex-spaceBetween-center;
+    gap: 30px;
+  }
+  &-content {
+    max-width: 749px;
+    align-items: flex-end;
+    &__txt {
+      font: var(--txt-700-20-150-ff);
+      color: var(--black);
+      margin-bottom: 10px;
+    }
+    &__info {
+      font: var(--txt-400-20-ff);
+      color: var(--black);
+    }
+  }
+
+  &-img {
+    position: relative;
+    margin-top: -100px;
+    &__01 {
+      position: absolute;
+      top: 75px;
+      right: 464px;
+    }
+    
+    &__03 {
+      position: absolute;
+      right: 103px;
+      top: 187px;
+    }
+  }
+}

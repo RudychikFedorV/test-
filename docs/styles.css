@@ -889,4 +889,41 @@ body {
   background: var(--yellow);
 }
 
+.charity {
+  margin-bottom: 165px;
+}
+.charity-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+}
+.charity-content {
+  max-width: 749px;
+  align-items: flex-end;
+}
+.charity-content__txt {
+  font: var(--txt-700-20-150-ff);
+  color: var(--black);
+  margin-bottom: 10px;
+}
+.charity-content__info {
+  font: var(--txt-400-20-ff);
+  color: var(--black);
+}
+.charity-img {
+  position: relative;
+  margin-top: -100px;
+}
+.charity-img__01 {
+  position: absolute;
+  top: 75px;
+  right: 464px;
+}
+.charity-img__03 {
+  position: absolute;
+  right: 103px;
+  top: 187px;
+}
+
 /*# sourceMappingURL=styles.css.map */
