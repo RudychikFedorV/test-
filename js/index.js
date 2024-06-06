@@ -6,10 +6,9 @@ initializeCarousel();
 
 AOS.init();
 
-import swiper from './modules/swiper.js';
+import swiper from "./modules/swiper.js";
 swiper();
 
-// import slider from './modules/slider.js';
-// slider();
+import sliderBrands from "./modules/slider-brands.js";
+sliderBrands();
 
-//brands-slider

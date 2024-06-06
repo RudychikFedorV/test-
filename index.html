@@ -556,7 +556,7 @@
 
         <section class="gallery" id="gallery" aria-label="gallery section">
             <div class="container">
-                <img src="./img/gallery/arrow-l.svg" alt="Arrow" class="gallery__arrowL" id="prevEl">
+                <img src="./img/gallery/arrow-l.svg" alt="Arrow" class="gallery-arrow gallery__arrowL" id="prevEl">
 
                 <div class="swiper">
                     <div class="swiper-wrapper">
@@ -581,7 +581,7 @@
                     </div>
 
                 </div>
-                <img src="./img/gallery/arrow-r.svg" alt="Arrow" class="gallery__arrowR" id="nextEl">
+                <img src="./img/gallery/arrow-r.svg" alt="Arrow" class="gallery-arrow gallery__arrowR" id="nextEl">
             </div>
         </section>
 
@@ -639,21 +639,40 @@
         <section class="brands" id="brands" aria-label="brands section">
             <div class="container">
                 <h1 class="title brands-title">З нами працюють:</h1>
-                <div class="brands-slider">
-                    <div class="brands-wrapper">
-                        <img src="./img/brands/01.png" alt="Brands" class="brands-wrapper__img">
-                        <img src="./img/brands/02.png" alt="Brands" class="brands-wrapper__img">
-                        <img src="./img/brands/03.png" alt="Brands" class="brands-wrapper__img">
-                        <img src="./img/brands/04.png" alt="Brands" class="brands-wrapper__img">
-                        <img src="./img/brands/05.png" alt="Brands" class="brands-wrapper__img">
-                        <img src="./img/brands/06.png" alt="Brands" class="brands-wrapper__img">
-                    </div>
+                <div class="slider-container brands-section">
+                    <img src="./img/gallery/arrow-l.svg" alt="Arrow" class="slider-btn prev">
+                    <div class="slider">
+                        <div class="slider-track">
+                            <!-- Duplicate last 6 slides at the beginning -->
+                            <div class="slide"><img src="./img/brands/06.png" alt="Brands"></div>
+                            <div class="slide"><img src="./img/brands/05.png" alt="Brands"></div>
+                            <div class="slide"><img src="./img/brands/04.png" alt="Brands"></div>
+                            <div class="slide"><img src="./img/brands/03.png" alt="Brands"></div>
+                            <div class="slide"><img src="./img/brands/02.png" alt="Brands"></div>
+                            <div class="slide"><img src="./img/brands/01.png" alt="Brands"></div>
 
-                    <img src="./img/gallery/arrow-l.svg" alt="Arrow" class="brands-arrow brands-slider__arrowL " id="prev">
-                    <img src="./img/gallery/arrow-r.svg" alt="Arrow" class="brands-arrow brands-slider__arrowR" id="next">
+                            <!-- Original slides -->
+                            <div class="slide"><img src="./img/brands/01.png" alt="Brands"></div>
+                            <div class="slide"><img src="./img/brands/02.png" alt="Brands"></div>
+                            <div class="slide"><img src="./img/brands/03.png" alt="Brands"></div>
+                            <div class="slide"><img src="./img/brands/04.png" alt="Brands"></div>
+                            <div class="slide"><img src="./img/brands/05.png" alt="Brands"></div>
+                            <div class="slide"><img src="./img/brands/06.png" alt="Brands"></div>
+
+                            <!-- Duplicate first 6 slides at the end -->
+                            <div class="slide"><img src="./img/brands/01.png" alt="Brands"></div>
+                            <div class="slide"><img src="./img/brands/02.png" alt="Brands"></div>
+                            <div class="slide"><img src="./img/brands/03.png" alt="Brands"></div>
+                            <div class="slide"><img src="./img/brands/04.png" alt="Brands"></div>
+                            <div class="slide"><img src="./img/brands/05.png" alt="Brands"></div>
+                            <div class="slide"><img src="./img/brands/06.png" alt="Brands"></div>
+                        </div>
+                    </div>
+                    <img src="./img/gallery/arrow-r.svg" alt="Arrow" class="slider-btn next">
                 </div>
             </div>
         </section>
+
 
     </div>
 

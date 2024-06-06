@@ -795,27 +795,24 @@ body {
 .gallery .swiper-wrapper {
   gap: 14px;
 }
-.gallery__arrowL {
+.gallery .gallery-arrow {
   position: absolute;
-  display: inline-block;
-  top: 38px;
-  left: 50px;
   padding: 16px 12px;
-  background: var(--white);
   z-index: 9;
   cursor: pointer;
+}
+.gallery__arrowL {
+  top: 38px;
+  left: 50px;
+  background: var(--white);
 }
 .gallery__img {
   width: 100%;
 }
 .gallery__arrowR {
-  position: absolute;
   top: 117px;
   right: 50px;
-  z-index: 9;
-  padding: 16px 12px;
   background: var(--yellow);
-  cursor: pointer;
 }
 
 .drupal {
@@ -858,13 +855,38 @@ body {
   top: 0px;
 }
 
-.brands-slider {
-  position: relative;
-  display: flex;
-  gap: 30px;
+.brands {
+  margin-bottom: 100px;
 }
-.brands .brands-arrow {
+.brands .slider-container {
+  position: relative;
+  overflow: hidden;
+}
+.brands .slider-track {
+  display: flex;
+  transition: transform 0.3s ease;
+}
+.brands .slide {
+  min-width: 16.6666666667%;
+}
+.brands .slide img {
+  width: 100%;
+}
+.brands .slider-btn {
   position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  padding: 16px 12px;
+  cursor: pointer;
+  z-index: 9;
+}
+.brands .prev {
+  left: 5px;
+  background: var(--white);
+}
+.brands .next {
+  right: 5px;
+  background: var(--yellow);
 }
 
 /*# sourceMappingURL=styles.css.map */
