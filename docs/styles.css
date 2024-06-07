@@ -152,11 +152,13 @@ p {
   --txt-900-80-ff: normal 900 80px / 110% var(--ff);
   --txt-800-44-ff: normal 800 44px / 125% var(--ff);
   --txt-700-26-ff: normal 700 26px / 125% var(--ff);
+  --txt-700-24-ff: normal 700 24px / 125% var(--ff);
   --txt-700-20-150-ff: normal 700 20px / 150% var(--ff);
   --txt-700-20-125-ff: normal 700 20px / 150% var(--ff);
   --txt-700-14-ff: normal 700 14px / 125% var(--ff);
   --txt-600-22-ff: normal 600 22px / 125% var(--ff);
   --txt-600-20-ff: normal 600 20px / 125% var(--ff);
+  --txt-400-24-ff: normal 400 24px / 125% var(--ff);
   --txt-400-20-ff: normal 400 20px / 150% var(--ff);
   --txt-400-16-ff: normal 400 16px / 125% var(--ff);
   --black: #333;
@@ -954,7 +956,78 @@ body {
 }
 
 .footer {
-  padding: 20px;
+  background-image: url("./../img/footer/bg.png");
+  background-size: cover;
+  background-position: center;
+}
+.footer-section {
+  display: flex;
+}
+.footer-left {
+  max-width: 525px;
+  background: var(--yellow);
+  padding: 40px 35px 55px 75px;
+}
+.footer-left__info {
+  margin: 30px 0 69px;
+  font: var(--txt-400-16-ff);
+  color: var(--black);
+}
+.footer-left__copy {
+  font: var(--txt-400-16-ff);
+  color: var(--black);
+}
+.footer-right {
+  padding: 50px 105px 155px 120px;
+  display: flex;
+  justify-content: space-between;
+  gap: 130px;
+}
+.footer-right__title {
+  font: var(--txt-700-24-ff);
+  color: var(--white);
+  white-space: nowrap;
+  margin-bottom: 30px;
+}
+.footer-right__contact {
+  display: inline-block;
+  font: var(--txt-400-24-ff);
+  color: var(--white);
+  white-space: nowrap;
+  margin-bottom: 20px;
+}
+.footer-right__contact span {
+  font: var(--txt-700-24-ff);
+}
+.footer-right__contact .span {
+  font: var(--txt-400-20-ff);
+  white-space: nowrap;
+  color: var(--white);
+}
+.footer-right__mail {
+  display: inline-block;
+  font: var(--txt-700-24-ff);
+  color: var(--white);
+  margin-bottom: 20px;
+}
+.footer-right__mail span {
+  font: var(--txt-400-24-ff);
+}
+.footer-right__social {
+  display: flex;
+  gap: 45px;
+}
+.footer-right__gps {
+  font: var(--txt-400-20-ff);
+  color: var(--white);
+  text-decoration: underline;
+  text-decoration-skip-ink: none;
+}
+.footer-right__icons {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
 }
 
 /*# sourceMappingURL=styles.css.map */

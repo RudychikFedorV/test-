@@ -23,7 +23,7 @@
 <body>
     <div class="wrapper">
 
-        <header class="header" id="header">
+        <header class="header" id="header" aria-label="Header section">
             <div class="container">
 
                 <a href="./index.html" class="header__logo" aria-label="Header Logo Glossiness">
@@ -72,11 +72,11 @@
             </div>
         </header>
 
-        <section class="welcome" id="welcome">
+        <section class="welcome" id="welcome" aria-label="Welcome section">
             <div class="container">
                 <div class="carousel-container">
                     <div class="carousel">
-                        <div class="carousel-item welcome__section" aria-label="welcome section">
+                        <div class="carousel-item welcome__section">
 
                             <div class="welcome__section-contacts" aria-label="contacts info">
                                 <p class="welcome__section-contacts__desc">Вебстудія №1 з розробки сайтів</p>
@@ -330,7 +330,7 @@
             </div>
         </section>
 
-        <section class="work" id="work" aria-label="work section">
+        <section class="work" id="work" aria-label="Work section">
             <div class="container">
                 <h1 class="title work-title">Перевірка тествого завдання</h1>
                 <div class="work-section">
@@ -366,7 +366,7 @@
 
         </section>
 
-        <section class="advertising" id="advertising" aria-label="advertising section">
+        <section class="advertising" id="advertising" aria-label="Advertising section">
             <div class="container">
                 <div class="advertising-content" aria-label="The best company to work for in IT" data-aos="fade-left">
                     <h1 class="advertising-content__title title">Найкраща компанія для роботи в IT</h1>
@@ -391,7 +391,7 @@
             </div>
         </section>
 
-        <section class="glossiness" id="glossiness" aria-label="glossiness section">
+        <section class="glossiness" id="glossiness" aria-label="Glossiness section">
             <div class="container">
                 <h1 class="title glossiness__title">У нас</h1>
                 <div class="glossiness__section grid-container">
@@ -554,7 +554,7 @@
 
         </section>
 
-        <section class="gallery" id="gallery" aria-label="gallery section">
+        <section class="gallery" id="gallery" aria-label="Gallery section">
             <div class="container">
                 <img src="./img/gallery/arrow-l.svg" alt="Arrow" class="gallery-arrow gallery__arrowL" id="prevEl">
 
@@ -585,7 +585,7 @@
             </div>
         </section>
 
-        <section class="drupal" id="drupal" aria-label="drupal section">
+        <section class="drupal" id="drupal" aria-label="Drupal section">
             <div class="container">
                 <h1 class="title drupal-title">Наш вклад в Drupal</h1>
                 <div class="drupal-section">
@@ -636,7 +636,7 @@
             </div>
         </section>
 
-        <section class="brands" id="brands" aria-label="brands section">
+        <section class="brands" id="brands" aria-label="Brands section">
             <div class="container">
                 <h1 class="title brands-title">З нами працюють:</h1>
                 <div class="slider-container brands-section">
@@ -673,7 +673,7 @@
             </div>
         </section>
 
-        <section class="charity" id="charity" aria-label="charity section">
+        <section class="charity" id="charity" aria-label="Charity section">
             <div class="container">
                 <h1 class="charity-title title">Благодійність</h1>
                 <div class="charity-section">
@@ -696,7 +696,7 @@
             </div>
         </section>
 
-        <srction class="organizations" id="organizations" aria-label="organizations section">
+        <srction class="organizations" id="organizations" aria-label="Organizations section">
             <div class="container">
                 <div class="organizations-section">
                     <div class="organizations-block" aria-label="Допомога ЗСУ">
@@ -760,9 +760,53 @@
             </div>
         </srction>
 
-
+        <footer class="footer" id="footer" aria-label="Footer section">
+            <div class="footer-section">
+                <div class="footer-left" aria-label="footer logo info">
+                    <a href="#!" class="footer-left__logo">
+                        <img src="./img/footer/logo.svg" alt="Logo">
+                    </a>
+                    <p class="footer-left__info">Компанія працює з 2008 року під брендом Глянець. Ми використовуємо
+                        для роботи лише власну нерухомість, техніку та сервери. Виконуємо всі замовлення виключно
+                        своїми ресурсами, залучаємо до роботи лише штатних працівників. Завдяки цьому нас цінують як
+                        надійного партнера та підрядника.
+                    </p>
+                    <p class="footer-left__copy">© <span id="copyright"></span> Глянець™ — Розробка та підтримка
+                        сайтів</p>
+                </div>
+                <div class="footer-right">
+                    <div class="footer-right__contacts" aria-label="contacts telephone mail">
+                        <p class="footer-right__title">Зателефонуйте нам</p>
+                        <a href="tel:0 (800) 759-759" class="footer-right__contact">0 (800) <span> 759-759 </span><span
+                                class="span"> доб.
+                                103</span></a>
+                        <a href="mailto:order@glyanec.net" class="footer-right__mail">order<span>@glyanec.net</span></a>
+                        <div class="footer-right__social">
+                            <a href="#!"><img src="./img/footer/facebook.svg" alt="facebook"></a>
+                            <a href="#!"><img src="./img/footer/instagram.svg" alt="instagram"></a>
+                            <a href="#!"><img src="./img/footer/google.svg" alt="google"></a>
+                            <a href="#!"><img src="./img/footer/twitter.svg" alt="twitter"></a>
+                        </div>
+                    </div>
+                    <div class="footer-right__contacts" aria-label="contacts address">
+                        <p class="footer-right__title">Адреса нашого офісу</p>
+                        <p class="footer-right__contact">21016, Україна, м. Вінниця,<br><span> с. Зарванці, <br>вул.
+                                Архітектурна, 5А</span>
+                        </p>
+                        <p class="footer-right__gps">GPS: 49.234384, 28.394405</p>
+                    </div>
+                    <div class="footer-right__contacts" aria-label="startups social">
+                        <p class="footer-right__title">Наші стартапи</p>
+                        <div class="footer-right__icons">
+                            <img src="./img/footer/ua.svg" alt="UA">
+                            <img src="./img/footer/alternative.svg" alt="Alternativ">
+                            <img src="./img/footer/helpdesk.svg" alt="Helpdesk">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
     </div>
-
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"
         integrity="sha512-A7AYk1fGKX6S2SsHywmPkrnzTZHrgiVT7GcQkLGDe2ev0aWb8zejytzS8wjo7PGEXKqJOrjQ4oORtnimIRZBtw=="

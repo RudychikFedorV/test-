@@ -12,3 +12,4 @@ swiper();
 import sliderBrands from "./modules/slider-brands.js";
 sliderBrands();
 
+document.getElementById("copyright").textContent = new Date().getFullYear();
