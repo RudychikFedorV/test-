@@ -1,0 +1,27 @@
+.organizations {
+  &-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+    margin-bottom: 100px;
+  }
+  &-block {
+    padding: 36px 24px;
+    text-align: center;
+    box-shadow: var(--c-box-shadow-2);
+    transition: var(--transition);
+    &:hover {
+      background: var(--yellow);
+      cursor: pointer;
+    }
+    &__desc {
+      margin: 16px 0;
+      font: var(--txt-700-26-ff);
+      color: var(--black);
+    }
+    &__txt {
+      font: var(--txt-400-16-ff);
+      color: var(--black);
+    }
+  }
+}

@@ -166,6 +166,7 @@ p {
   --background-indicator: #bbb;
   --background-btn: linear-gradient(132deg, #ffdf00 0%, #ffb800 100%);
   --c-box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  --c-box-shadow-2: 0 0 20px 0 rgba(75, 85, 89, 0.1);
   --c-border-drupal: 2px solid rgba(69, 77, 82, 0.05);
 }
 
@@ -924,6 +925,36 @@ body {
   position: absolute;
   right: 103px;
   top: 187px;
+}
+
+.organizations-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 30px;
+  margin-bottom: 100px;
+}
+.organizations-block {
+  padding: 36px 24px;
+  text-align: center;
+  box-shadow: var(--c-box-shadow-2);
+  transition: var(--transition);
+}
+.organizations-block:hover {
+  background: var(--yellow);
+  cursor: pointer;
+}
+.organizations-block__desc {
+  margin: 16px 0;
+  font: var(--txt-700-26-ff);
+  color: var(--black);
+}
+.organizations-block__txt {
+  font: var(--txt-400-16-ff);
+  color: var(--black);
+}
+
+.footer {
+  padding: 20px;
 }
 
 /*# sourceMappingURL=styles.css.map */
